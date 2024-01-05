@@ -9,6 +9,7 @@ export const LRcontainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
   @media (max-width: 700px) {
     flex-direction: column;
   }
@@ -36,6 +37,7 @@ export const RightImage = styled.img`
   max-width: 310px;
   z-index: 1;
   border-radius: 16px;
+
   @media (max-width: 700px) {
     margin: 60px 0px 0px 0px;
     max-width: 200px;
@@ -96,6 +98,7 @@ export const ImageBefore = styled.img`
   z-index: 0;
   border: 0px solid red;
   border-radius: 50%;
+
   @media (max-width: 700px) {
     top: 27px;
     left: -31%;
@@ -110,6 +113,7 @@ export const ImageAfter = styled.img`
   width: 90px;
   height: 57px;
   z-index: 1;
+
   @media (max-width: 700px) {
     left: -42px;
   }
@@ -132,6 +136,7 @@ export const Description = styled.p`
   color: black;
   font-style: sans-serif;
   font-size: 14px;
+
   @media (max-width: 700px) {
     font-size: 10px;
   }
@@ -145,6 +150,7 @@ export const GradientButton = styled.div`
   padding: 8px 12px;
   margin-bottom: 25px;
   width: max-content;
+
   @media (max-width: 700px) {
     font-size: 10px;
   }
@@ -153,6 +159,7 @@ export const Title = styled.span`
   font-style: sans-serif;
   color: #212b36;
   font-size: 47px;
+
   @media (max-width: 700px) {
     font-size: 30px;
   }
