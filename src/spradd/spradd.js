@@ -2,7 +2,6 @@ import {
   WhiteGradientBT,
   MargingDiv,
   Description,
-  BlankDiv,
   Leftsection,
   LeftlogoImage,
   MainDiv,
@@ -51,7 +50,6 @@ export function Hadesection() {
               </Description>
             </Txtsection>
           </Leftsection>
-          <BlankDiv></BlankDiv>
           <Rightsection>
             <PinkAvatarCD>
               <SmallImage src="https://spreadd.io/assets/home/academy.jpg"></SmallImage>

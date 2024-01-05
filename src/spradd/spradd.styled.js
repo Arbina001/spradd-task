@@ -136,10 +136,7 @@ export const Description = styled.p`
     font-size: 10px;
   }
 `;
-export const BlankDiv = styled.div`
-  width: 250px;
-  padding: 0px 65px 0px 19px;
-`;
+
 export const WhiteGradientBT = styled.div`
   line-height: 1.5;
   font-weight: 400;
