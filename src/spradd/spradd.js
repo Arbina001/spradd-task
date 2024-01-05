@@ -1,5 +1,5 @@
 import {
-  WhiteGradientBT,
+  GradientButton,
   MargingDiv,
   Description,
   Leftsection,
@@ -11,7 +11,7 @@ import {
   ImageAfter,
   ImageBefore,
   RightImage,
-  PinkAvatarCD,
+  PinkAvatar,
   SmallImage,
   Title,
 } from './spradd.styled.js';
@@ -31,7 +31,7 @@ export function Hadesection() {
         {/* perform properties  */}
         <LRcontainer>
           <Leftsection>
-            <WhiteGradientBT>Spreadd Academy</WhiteGradientBT>
+            <GradientButton>Spreadd Academy</GradientButton>
             <Title>Create course and</Title>
 
             <Title>curriculums for your</Title>
@@ -51,16 +51,16 @@ export function Hadesection() {
             </Txtsection>
           </Leftsection>
           <Rightsection>
-            <PinkAvatarCD>
-              <SmallImage src="https://spreadd.io/assets/home/academy.jpg"></SmallImage>
+            <PinkAvatar>
+              <SmallImage src="https://spreadd.io/assets/home/academy.jpg"
+              alt= "spreadd academy"></SmallImage>
               <span>Amazing course,i would definetely recommend</span>
-            </PinkAvatarCD>
+            </PinkAvatar>
             <RightImage
               src="https://spreadd.io/assets/home/academy.jpg"
-              alt="rigtimage"
-            ></RightImage>
-            <ImageBefore src="https://spreadd.io/assets/home/round-patch.svg"></ImageBefore>
-            <ImageAfter src="https://spreadd.io/assets/home/dot-patch.svg"></ImageAfter>
+              alt="rigtimage"></RightImage>
+            <ImageBefore src="https://spreadd.io/assets/home/round-patch.svg"  alt="round-patch"></ImageBefore>
+            <ImageAfter src="https://spreadd.io/assets/home/dot-patch.svg" alt="dot-patch"></ImageAfter>
           </Rightsection>
         </LRcontainer>
       </MainDiv>

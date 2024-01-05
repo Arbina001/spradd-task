@@ -41,7 +41,7 @@ export const RightImage = styled.img`
     max-width: 200px;
   }
 `;
-export const PinkAvatarCD = styled.div`
+export const PinkAvatar = styled.div`
   position: absolute;
   top: -21px;
   right: 20px;
@@ -137,7 +137,7 @@ export const Description = styled.p`
   }
 `;
 
-export const WhiteGradientBT = styled.div`
+export const GradientButton = styled.div`
   line-height: 1.5;
   font-weight: 400;
   color: black;
