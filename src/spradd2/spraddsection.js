@@ -1,42 +1,47 @@
 import {
-  CreatorStorcard,
+  Creatorcard,
   Desc,
-  DescPara,
-  EmtyDiv,
-  HeadingDiv,
-  LargeDiv,
+  Description,
+  HeadingWrapper,
+  CreatorsWrapper,
   LeftImageDiv,
   LeftSideImage,
   LeftsideDiv,
   PinkH1,
-  PinkLineDiv,
-  RightSideDiveTOp,
+  PinkLineWrapper,
+  UpperRightDiv,
   RightsideDiv,
   SmallSizeimage,
   Subdiv,
   TextDiv,
   TextStyle,
-  WhiteCardDiv,
-} from "./spraddsection.styled";
+  CardWrapper,
+} from './spraddsection.styled';
 export function SpreadforCreator() {
   return (
     <>
-      <LargeDiv>
-        <RightSideDiveTOp>
-          <SmallSizeimage src="https://spreadd.io/assets/home/left-dot-patch.svg"></SmallSizeimage>
-        </RightSideDiveTOp>
-        <HeadingDiv>
+      <CreatorsWrapper>
+        <UpperRightDiv>
+          <SmallSizeimage
+            src="https://spreadd.io/assets/home/left-dot-patch.svg"
+            alt="left-dot-patch"
+          ></SmallSizeimage>
+        </UpperRightDiv>
+        <HeadingWrapper>
           <Subdiv>
             <LeftsideDiv>
-              <PinkLineDiv>100+ curated products</PinkLineDiv>
-              <WhiteCardDiv>
+              <PinkLineWrapper>100+ curated products</PinkLineWrapper>
+              <CardWrapper>
                 <PinkH1>100+</PinkH1>
                 <Desc>Happy Customers</Desc>
-              </WhiteCardDiv>
-              <LeftSideImage src="https://spreadd.io/assets/home/iphone.png"></LeftSideImage>
+              </CardWrapper>
+              <LeftSideImage
+                src="https://spreadd.io/assets/home/iphone.png"
+                alt="phone-image"
+              ></LeftSideImage>
             </LeftsideDiv>
             <RightsideDiv>
-              <CreatorStorcard>Creator Store</CreatorStorcard>
+              <Creatorcard>Creator Store</Creatorcard>
               <TextDiv>
                 <TextStyle>Curate your</TextStyle>
               </TextDiv>
@@ -49,15 +54,15 @@ export function SpreadforCreator() {
               <TextDiv>
                 <TextStyle>able</TextStyle>
               </TextDiv>
-              <DescPara>
+              <Description>
                 <p>Apply to create your own store. You can choose brands</p>
                 <p>and display their product within your own store. You can</p>
                 <p>get paid on every sale brand makes through you.</p>
-              </DescPara>
+              </Description>
             </RightsideDiv>
           </Subdiv>
-        </HeadingDiv>
-      </LargeDiv>
+        </HeadingWrapper>
+      </CreatorsWrapper>
     </>
   );
 }
