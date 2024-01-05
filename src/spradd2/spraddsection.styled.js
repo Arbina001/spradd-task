@@ -5,6 +5,7 @@ export const CreatorsWrapper = styled.div`
   align-items: flex-end;
   display: flex;
   justify-content: center;
+  
   @media (max-width: 700px) {
     align-items: baseline;
   }
@@ -19,6 +20,7 @@ export const HeadingWrapper = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0px 60px 0px 0px;
+
   @media (max-width: 700px) {
     padding:0px;
   }
@@ -33,6 +35,7 @@ export const LeftsideDiv = styled.div`
   max-width: 50%;
   width: 100%;
   position: relative;
+
   @media (max-width: 700px) {
     max-width: 100%;
   }
@@ -45,6 +48,7 @@ export const RightsideDiv = styled.div`
   display: flex;
   padding: 66px 0px 8px 4px;
   flex-direction: column;
+
   @media (max-width: 700px) {
     max-width: 100%;
   }
@@ -62,6 +66,7 @@ export const UpperRightDiv = styled.div`
   position: absolute;
   top: 442px;
   right: 0px;
+
   @media (max-width: 700px) {
     display: none;
   }
@@ -130,6 +135,7 @@ export const Creatorcard = styled.div`
   width: max-content;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) translateX(0px);
+
   @media (max-width: 700px) {
     padding: 9px 17px;
     font-size: 9px;
@@ -147,6 +153,7 @@ export const Desc = styled.p`
 
 export const TextDiv = styled.div`
   padding: 7px 1px 9px;
+
   @media (max-width: 700px) {
     padding: 0px 0px 9px;
   }
@@ -162,6 +169,7 @@ export const TextStyle = styled.span`
   color: #212b36;
   font-weight: 350;
   line-height: 16px;
+
   @media (max-width: 700px) {
     line-height: 0px;
     font-size: 27px;
@@ -173,6 +181,7 @@ export const Subdiv = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 5% 0% 0%;
+
   @media (max-width: 700px) {
     flex-direction: column-reverse;
     align-items: stretch;
