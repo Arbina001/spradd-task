@@ -1,19 +1,18 @@
 import {
   Creatorcard,
-  Desc,
-  Description,
+  Smalldescription,
+  Smalldescriptionription,
   HeadingWrapper,
   CreatorsWrapper,
-  LeftImageDiv,
   LeftSideImage,
-  LeftsideDiv,
+  Leftsidebox,
   PinkH1,
   PinkLineWrapper,
-  UpperRightDiv,
-  RightsideDiv,
+  UpperRightbox,
+  Rightsidebox,
   SmallSizeimage,
-  Subdiv,
-  TextDiv,
+  Subbox,
+  Textbox,
   TextStyle,
   CardWrapper,
 } from './spraddsection.styled';
@@ -21,46 +20,46 @@ export function SpreadforCreator() {
   return (
     <>
       <CreatorsWrapper>
-        <UpperRightDiv>
+        <UpperRightbox>
           <SmallSizeimage
             src="https://spreadd.io/assets/home/left-dot-patch.svg"
             alt="left-dot-patch"
           ></SmallSizeimage>
-        </UpperRightDiv>
+        </UpperRightbox>
         <HeadingWrapper>
-          <Subdiv>
-            <LeftsideDiv>
+          <Subbox>
+            <Leftsidebox>
               <PinkLineWrapper>100+ curated products</PinkLineWrapper>
               <CardWrapper>
                 <PinkH1>100+</PinkH1>
-                <Desc>Happy Customers</Desc>
+                <Smalldescription>Happy Customers</Smalldescription>
               </CardWrapper>
               <LeftSideImage
                 src="https://spreadd.io/assets/home/iphone.png"
                 alt="phone-image"
               ></LeftSideImage>
-            </LeftsideDiv>
-            <RightsideDiv>
+            </Leftsidebox>
+            <Rightsidebox>
               <Creatorcard>Creator Store</Creatorcard>
-              <TextDiv>
+              <Textbox>
                 <TextStyle>Curate your</TextStyle>
-              </TextDiv>
-              <TextDiv>
+              </Textbox>
+              <Textbox>
                 <TextStyle>products and turn</TextStyle>
-              </TextDiv>
-              <TextDiv>
+              </Textbox>
+              <Textbox>
                 <TextStyle>your content shop-</TextStyle>
-              </TextDiv>
-              <TextDiv>
+              </Textbox>
+              <Textbox>
                 <TextStyle>able</TextStyle>
-              </TextDiv>
-              <Description>
+              </Textbox>
+              <Smalldescriptionription>
                 <p>Apply to create your own store. You can choose brands</p>
                 <p>and display their product within your own store. You can</p>
                 <p>get paid on every sale brand makes through you.</p>
-              </Description>
-            </RightsideDiv>
-          </Subdiv>
+              </Smalldescriptionription>
+            </Rightsidebox>
+          </Subbox>
         </HeadingWrapper>
       </CreatorsWrapper>
     </>

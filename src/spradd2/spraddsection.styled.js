@@ -5,7 +5,7 @@ export const CreatorsWrapper = styled.div`
   align-items: flex-end;
   display: flex;
   justify-content: center;
-  
+
   @media (max-width: 700px) {
     align-items: baseline;
   }
@@ -22,7 +22,7 @@ export const HeadingWrapper = styled.div`
   padding: 0px 60px 0px 0px;
 
   @media (max-width: 700px) {
-    padding:0px;
+    padding: 0px;
   }
 `;
 
@@ -31,7 +31,7 @@ export const LeftImageDiv = styled.div`
   width: 100%;
   position: relative;
 `;
-export const LeftsideDiv = styled.div`
+export const Leftsidebox = styled.div`
   max-width: 50%;
   width: 100%;
   position: relative;
@@ -41,14 +41,14 @@ export const LeftsideDiv = styled.div`
   }
 `;
 
-export const RightsideDiv = styled.div`
-  max-width: 50%;
-  width: 100%;
-  position: relative;
-  display: flex;
-  padding: 66px 0px 8px 4px;
-  flex-direction: column;
-
+export const Rightsidebox = styled.div`
+flex-direction: column;
+ display: flex;
+max-width: 50%;
+width: 100%;
+position: relative;
+padding: 66px 0px 8px 4px;
+ 
   @media (max-width: 700px) {
     max-width: 100%;
   }
@@ -57,12 +57,13 @@ export const RightsideDiv = styled.div`
 export const LeftSideImage = styled.img`
   max-width: 100%;
   width: 82%;
+
   @media screen {
     width: 100%;
   }
 `;
 
-export const UpperRightDiv = styled.div`
+export const UpperRightbox = styled.div`
   position: absolute;
   top: 442px;
   right: 0px;
@@ -106,6 +107,7 @@ export const CardWrapper = styled.div`
   padding: 8px;
   background: white;
   box-shadow: 0px 0px 0px;
+
   @media (max-width: 700px) {
     font-size: 9px;
     line-height: 21px;
@@ -117,7 +119,8 @@ export const CardWrapper = styled.div`
 export const PinkH1 = styled.h1`
   font-size: 12px;
   line-height: 14px;
-  color:  #FF4E53;
+  color: #ff4e53;
+  
   @media (max-width: 700px) {
     font-size: 10px;
     line-height: 12px;
@@ -142,7 +145,7 @@ export const Creatorcard = styled.div`
   }
 `;
 
-export const Desc = styled.p`
+export const Smalldescription = styled.p`
   margin: 0px;
   font-size: 12px;
 
@@ -151,7 +154,7 @@ export const Desc = styled.p`
   }
 `;
 
-export const TextDiv = styled.div`
+export const Textbox = styled.div`
   padding: 7px 1px 9px;
 
   @media (max-width: 700px) {
@@ -159,7 +162,7 @@ export const TextDiv = styled.div`
   }
 `;
 
-export const Description = styled.p`
+export const Smalldescriptionription = styled.p`
   font-size: 13px;
   padding: 0px;
   color: #212b36;
@@ -176,7 +179,7 @@ export const TextStyle = styled.span`
   }
 `;
 
-export const Subdiv = styled.div`
+export const Subbox = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
