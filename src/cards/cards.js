@@ -10,12 +10,12 @@ import {
   StyledTitle,
   Middlebox,
   ContentBox,
-  Maincontainer,
+  Container,
 } from './cards.styled';
 export function Tasks() {
   return (
     <>
-      <Maincontainer>
+      <Container>
         <MainContainer>
           <ContentBox>
             <WhyStyledTitle>Why Spreadd?</WhyStyledTitle>
@@ -38,7 +38,7 @@ export function Tasks() {
             </FirstBox>
             <SecondBox>
               <LogoBox>
-                <Assetimage src="https://spreadd.io/assets/home/whyspreadd/marketplace.svg"></Assetimage>
+                <Assetimage src="https://spreadd.io/assets/home/whyspreadd/marketplace.svg" alt ="whyspredd.img"></Assetimage>
                 <StyledTitle>NFT marketplace</StyledTitle>
                 <Description>
                   Spreadd helps you to get in touch with your brand ambassadors
@@ -49,7 +49,7 @@ export function Tasks() {
             </SecondBox>
             <Middlebox>
               <LogoBox>
-                <Assetimage src="https://spreadd.io/assets/home/whyspreadd/sales.svg"></Assetimage>
+                <Assetimage src="https://spreadd.io/assets/home/whyspreadd/sales.svg" alt="sales.img"></Assetimage>
                 <StyledTitle>Increase your product sale</StyledTitle>
                 <Description>
                   Spreadd helps you to get in touch with your brand ambassadors
@@ -60,7 +60,7 @@ export function Tasks() {
             </Middlebox>
           </InnerWrapper>
         </MainContainer>
-      </Maincontainer>               
+      </Container>               
     </>
   );
 }

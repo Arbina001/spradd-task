@@ -35,7 +35,7 @@ export const InnerWrapper = styled.div`
     right: -125px;
     background: url(https://spreadd.io/assets/home/whyspreadd/bg-why-spreadd.svg)
       no-repeat;
-    width: 221px;
+    width: 220px;
     height: 314px;            
   }
   @media (max-width: 991px) {
