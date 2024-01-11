@@ -3,7 +3,7 @@ import {
   FirstBox,
   LogoBox,
   Assetimage,
-  MainContainer,
+  Innerwrapper,
   SecondBox,
   WhyStyledTitle,
   Description,
@@ -16,7 +16,7 @@ export function Tasks() {
   return (
     <>
       <Container>
-        <MainContainer>
+        <Innerwrapper>
           <ContentBox>
             <WhyStyledTitle>Why Spreadd?</WhyStyledTitle>
             <p>
@@ -38,7 +38,10 @@ export function Tasks() {
             </FirstBox>
             <SecondBox>
               <LogoBox>
-                <Assetimage src="https://spreadd.io/assets/home/whyspreadd/marketplace.svg" alt ="whyspredd.img"></Assetimage>
+                <Assetimage
+                  src="https://spreadd.io/assets/home/whyspreadd/marketplace.svg"
+                  alt="whyspredd.img"
+                ></Assetimage>
                 <StyledTitle>NFT marketplace</StyledTitle>
                 <Description>
                   Spreadd helps you to get in touch with your brand ambassadors
@@ -49,7 +52,10 @@ export function Tasks() {
             </SecondBox>
             <Middlebox>
               <LogoBox>
-                <Assetimage src="https://spreadd.io/assets/home/whyspreadd/sales.svg" alt="sales.img"></Assetimage>
+                <Assetimage
+                  src="https://spreadd.io/assets/home/whyspreadd/sales.svg"
+                  alt="sales.img"
+                ></Assetimage>
                 <StyledTitle>Increase your product sale</StyledTitle>
                 <Description>
                   Spreadd helps you to get in touch with your brand ambassadors
@@ -59,8 +65,8 @@ export function Tasks() {
               </LogoBox>
             </Middlebox>
           </InnerWrapper>
-        </MainContainer>
-      </Container>               
+        </Innerwrapper>
+      </Container>
     </>
   );
 }

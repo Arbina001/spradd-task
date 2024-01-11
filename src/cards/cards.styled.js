@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-export const Maincontainer = styled.section`
+export const Innerwrapper = styled.section`
   background: #ffffff;
 
   @media (max-width: 991px) {
@@ -7,7 +7,7 @@ export const Maincontainer = styled.section`
   }
 `;
 
-export const MainContainer = styled.div`
+export const Innerwrapper = styled.div`
   width: 100%;
   max-width: 1003px;
   margin: 0px auto;
@@ -36,7 +36,7 @@ export const InnerWrapper = styled.div`
     background: url(https://spreadd.io/assets/home/whyspreadd/bg-why-spreadd.svg)
       no-repeat;
     width: 220px;
-    height: 314px;            
+    height: 314px;
   }
   @media (max-width: 991px) {
     flex-direction: column;
