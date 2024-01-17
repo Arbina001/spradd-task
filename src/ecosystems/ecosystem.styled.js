@@ -27,7 +27,7 @@ export const Propertieswrapper = styled.div`
 `;
 
 export const Leftsidebox = styled.div`
-  margin: 0px 0px 0px 60;
+  margin: 0px 0px 0px 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,9 +73,9 @@ export const Rightsidesection = styled.div`
   display: flex;
   gap: 60px;
   position: relative;
-  margin: 0 -20px 0 110px;
+  margin: 0 -18px 0 100px;
   @media (max-width: 991px) {
-    margin: 0 -20px 0 31px;
+    margin: 0px -20px 0px 31px;
   }
   @media (max-width: 991px) {
     justify-content: flex-end;
@@ -84,7 +84,7 @@ export const Rightsidesection = styled.div`
 
 export const Imageswrapper = styled.div`
   display: flex;
-  gap: 32px;
+  gap: 30px;
 `;
 
 export const collabrationimagebox = styled.div`
@@ -134,11 +134,11 @@ export const Creatorfuntions = styled.div`
 `;
 
 export const Creatorwrapper = styled.h4`
-  font-size: 18px;
-  font-weight: 400;
-  font-family: 'ProximaNova', sans-serif;
-  color: #f06156;
+  color: #ed5d52;
   position: relative;
   right: -6px;
   top: -20px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'ProximaNova', sans-serif;  
 `;

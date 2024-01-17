@@ -25,13 +25,13 @@ export const Taskfour = () => {
             <Propertiesinnerwrapper>
               <Leftsidebox>
                 <Headingmain>
-                  Get ready for seamless collaborations, with personalised
+                  Get ready for seamless collaborations,with personalised
                   content and insights.
                 </Headingmain>
                 <Textproperties>
                   Spreadd is a decentralised ecosystem for creators economy
-                  giving commercial mobility to brands, creators helping
-                  accelerate their growth.
+                  giving commercial mobility to brands,creators helping
+                  accelerate their growth
                 </Textproperties>
               </Leftsidebox>
 
@@ -49,7 +49,7 @@ export const Taskfour = () => {
                   />
                 </Collabrationimagefunctionbox>
                 <Creatorfuntions>
-                  <Creatorwrapper>1.37k+ Creators</Creatorwrapper>
+                  <Creatorwrapper>1.37 k+ Creators</Creatorwrapper>
                 </Creatorfuntions>
               </Rightsidesection>
             </Propertiesinnerwrapper>
