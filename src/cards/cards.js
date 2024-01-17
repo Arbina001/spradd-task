@@ -1,5 +1,5 @@
 import {
-  InnerWrapper,
+  DispalyWrapper,
   FirstBox,
   LogoBox,
   Assetimage,
@@ -24,7 +24,7 @@ export function Tasks() {
               Spreadd and see them grow.
             </p>
           </ContentBox>
-          <InnerWrapper>
+          <DispalyWrapper>
             <FirstBox>
               <LogoBox>
                 <Assetimage src="https://spreadd.io/assets/home/whyspreadd/noname.svg"></Assetimage>
@@ -64,7 +64,7 @@ export function Tasks() {
                 </Description>
               </LogoBox>
             </Middlebox>
-          </InnerWrapper>
+          </DispalyWrapper>
         </Innerwrapper>
       </Container>
     </>

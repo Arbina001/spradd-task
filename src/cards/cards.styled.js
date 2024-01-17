@@ -7,18 +7,18 @@ export const Innerwrapper = styled.section`
   }
 `;
 
-export const Innerwrapper = styled.div`
-  width: 100%;
-  max-width: 1003px;
-  margin: 0px auto;
+// export const Innerwrapper = styled.div`
+//   width: 100%;
+//   max-width: 1003px;
+//   margin: 0px auto;
 
-  @media (max-width: 991px) {
-    max-width: 998px;
-    padding: 0px 15px;
-  }
-`;
+//   @media (max-width: 991px) {
+//     max-width: 998px;
+//     padding: 0px 15px;
+//   }
+// `;
 
-export const InnerWrapper = styled.div`
+export const DispalyWrapper = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -163,3 +163,5 @@ export const Middlebox = styled.div`
     min-height: 151px;
   }
 `;
+export const Container = styled.div`
+`
